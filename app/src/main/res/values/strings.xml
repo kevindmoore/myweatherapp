@@ -3,6 +3,7 @@
     <string name="us_city">US City</string>
     <string name="zip">Zip</string>
     <string name="location">Location</string>
+    <string name="search_failed">Search Failed</string>
     <string name="search">Search</string>
     <string name="weather_for">Weather for %1$s</string>
     <string name="description">Description: %1$s</string>
@@ -11,7 +12,7 @@
     <string name="humidity">Humidity: %2d</string>
     <string name="search_title">Search</string>
     <string name="ok">OK</string>
-    <string name="permissionTitle">Permissons</string>
+    <string name="permissionTitle">Permissions</string>
     <string name="locationPermissionMsg">In order to search for weather in your location, we
     need the following permission
   </string>

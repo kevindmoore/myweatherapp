@@ -3,5 +3,5 @@ package com.mastertechsoftware.myweatherapp.models
 /**
  *
  */
-data class Main(var temp: Double, var pressure : Int, var humidity: Int,
-                var temp_min : Double, var temp_max : Double)
+data class Main(var temp: Double = 0.0, var pressure : Int = 0, var humidity: Int = 0,
+                var temp_min : Double = 0.0, var temp_max : Double = 0.0)
