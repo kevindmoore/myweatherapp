@@ -59,9 +59,9 @@ class MainActivity : AppCompatActivity() {
                             val searchResultsView = SearchResultsView()
                             searchResultsView.initialize(model)
                             if (conductorRouter.backstackSize > 1) {
-                                conductorRouter.replaceTopController(getRouterTransaction(SearchView(), RESULTS_VIEW))
+                                conductorRouter.replaceTopController(getRouterTransaction(searchResultsView, RESULTS_VIEW))
                             } else {
-                                conductorRouter.pushController(getRouterTransaction(SearchView(), RESULTS_VIEW))
+                                conductorRouter.pushController(getRouterTransaction(searchResultsView, RESULTS_VIEW))
                             }
                         }
             } else {
